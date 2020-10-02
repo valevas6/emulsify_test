@@ -1,0 +1,22 @@
+uuid: 1508a2cb-f7f8-499e-8600-0bf07c0b9233
+langcode: en
+status: true
+dependencies:
+  theme:
+    - emulsify_test
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: emulsify_test_local_tasks
+theme: emulsify_test
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }
